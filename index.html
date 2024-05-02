@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="assets/images/phoenix-logo.png" alt="logo">
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Order</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Food</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Restaurant</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Testimonial</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="social-icons-container">
+                <div class="social-icon-box">
+                <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                </div>
+                <div class="social-icon-box">
+                    <a href="#"> <i class="fa-brands fa-whatsapp"></i> </a>
+                </div>
+                <div class="mobile-nav-bar">
+                    <div class="mobile-nav-bar-container">
+                      <i class="fa fa-bars"></i>
+                    </div>  
+                </div>
+            </div> 
+        </div>
+        <div class="mobile-nav-links">
+            <ul>
+                <li><a href="#" rel="noopener noreferrer">Home</a></li>
+                <li><a href="#" rel="noopener noreferrer">Order</a></li>
+                <li><a href="#"  rel="noopener noreferrer">Food</a></li>
+                <li><a href="#"  rel="noopener noreferrer">Restaurant</a></li>
+                <li><a href="#"  rel="noopener noreferrer">Testimonial</a></li>
+                <li><a href="#"  rel="noopener noreferrer">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="big-image">
+            <div class="image-section">
+                <div class="big-img-btn">
+                    Lorem Ipsum
+                </div>
+            </div>
+        </div>
+        <div class="sub-section">
+            <div class="txt-box">
+                Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard
+                dummy text ever since the 1500s
+            </div>
+            <div class="txt-box">
+                Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard
+                dummy text ever since the 1500s
+            </div>
+            <div class="txt-box">
+                Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard
+                dummy text ever since the 1500s
+            </div>
+        </div>
+        <div class="cards-section">
+            <div class="card-heading">
+                Lorem Ipsum
+            </div>
+            <div class="cards-container">
+                <div class="card-1">
+                    <img src="./assets/images/rooms.jpg" alt="rooms">
+                    <h4>Rooms</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                    </p>
+                        <button>Learn More</button>
+                </div>
+                <div class="card-2">
+                    <img src="./assets/images/dining.jpg" alt="dining">
+                    <h4>Dining</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                    </p>
+                        <button>Learn More</button>
+                </div>
+                <div class="card-3">
+                    <img src="./assets/images/pool.jpg" alt="pool">
+                    <h4>Pools</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                    </p>
+                        <button>Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const menubar = document.querySelector('.mobile-nav-bar');
+        const menuLinks = document.querySelector('.mobile-nav-links');
+        menubar.addEventListener('click', function() {
+            menuLinks.classList.toggle('active-menu');
+            document.querySelector('.fa-bars').classList.toggle('fa-close');
+});
+        
+    </script>
+</body>
+
+</html>
